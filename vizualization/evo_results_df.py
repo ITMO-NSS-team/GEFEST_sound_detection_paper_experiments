@@ -10,11 +10,26 @@ def upload_file(path: str):
         f.close()
     return file
 
-paths_for_plotting = ['Results/iter0/bottom_square_exp']
+path_to_result  = ['Results/iter0/bottom_square_exp']
+
+#Uncomment path_to_result below to create DataFrame for paper's experiments results
+
+# path_to_result = ['Paper_results/002_3107_roulette/iter_0/bottom_square',
+#        'Paper_results/001_3107_roulette/iter_0/bottom_square',
+#        'Paper_results/003_3107_roulette/iter_0/bottom_square',
+#        'Paper_results/001_3107_tournament/iter_0/bottom_square',
+#        'Paper_results/002_3107_tournament/iter_0/bottom_square',
+#        'Paper_results/003_3107_tournament/iter_0/bottom_square',
+#        'Paper_results/002_3107_roulette/iter_1/bottom_square',
+#        'Paper_results/001_3107_roulette/iter_1/bottom_square',
+#        'Paper_results/003_3107_roulette/iter_1/bottom_square',
+#        'Paper_results/001_3107_tournament/iter_1/bottom_square',
+#        'Paper_results/002_3107_tournament/iter_1/bottom_square',
+#        'Paper_results/1_0908_roulette/iter0/bottom_square_exp', ]
 root_path = Path(__file__).parent.parent
 fits ={}
 dice_dict={}
-for path_ind,path in enumerate(paths_for_plotting):
+for path_ind,path in enumerate(path_to_result ):
     lenght = count_files(path=f'{root_path}/{path}', like='optimized_structure_')
     perform_cnt = count_files(path=f'{root_path}/{path}/History_0', like='performance_')
     fits[path_ind] = []
@@ -42,7 +57,7 @@ for i in range(len(fits)):
     dice_dict[i][1], dice_dict[i][2] = dice_dict[i][2], dice_dict[i][1]
 boxs =[]
 boxs_dice =[]
-iters = count_files(path =f'{root_path}/{paths_for_plotting[0]}/History_0', like ='performance_')
+iters = count_files(path =f'{root_path}/{path_to_result [0]}/History_0', like ='performance_')
 #count_files(path=f'{root_path}/{path}/History_0', like='performance_')
 for iter in range(iters):
     boxs.append([])
