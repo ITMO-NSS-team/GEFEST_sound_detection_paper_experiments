@@ -1,5 +1,5 @@
-﻿# GEFEST_sound_detection_paper_experiments
-## Repository for "Evolutionary Generative Design for Defects Shape Reconstruction using Acoustic Measurements" paper submitted to" IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2024)" conference
+
+# Repository for "Evolutionary Generative Design for Defects Shape Reconstruction using Acoustic Measurements" paper submitted to" IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2024)" conference
 ### In the paper, the generative design approach implemented in [GEFEST](https://github.com/aimclub/GEFEST) framework was applied to improve optimization process of defect reconstruction problem.
 ### This experiments can execute with Python 3.10.0 enviroment.
  - *main_experiment.py* file includes the code which executes the main experiment mentioned in the paper. This file create *Results* folder.
