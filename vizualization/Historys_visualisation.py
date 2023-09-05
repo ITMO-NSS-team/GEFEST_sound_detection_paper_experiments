@@ -16,8 +16,29 @@ def upload_file(path: str):
         f.close()
     return file
 
-path_to_result = f'{root_path}/Paper_results/001_3107_roulette/iter_0/bottom_square'
 
+path_of_exp = ['Paper_results/002_3107_roulette/iter_0/bottom_square',
+       'Paper_results/001_3107_roulette/iter_0/bottom_square',
+       'Paper_results/003_3107_roulette/iter_0/bottom_square',
+       'Paper_results/001_3107_tournament/iter_0/bottom_square',
+       'Paper_results/002_3107_tournament/iter_0/bottom_square',
+       'Paper_results/003_3107_tournament/iter_0/bottom_square',
+       'Paper_results/002_3107_roulette/iter_1/bottom_square',
+       'Paper_results/001_3107_roulette/iter_1/bottom_square',
+       'Paper_results/003_3107_roulette/iter_1/bottom_square',
+       'Paper_results/001_3107_tournament/iter_1/bottom_square',
+       'Paper_results/002_3107_tournament/iter_1/bottom_square',
+       'Paper_results/1_0908_roulette/iter0/bottom_square_exp' ]
+
+####
+#Choose what case of results you want to vizualize
+
+
+#path_to_result = f'{root_path}/Results/iter0/bottom_square_exp'
+#path_to_result = f'{root_path}/Baseline_results/iter0/bottom_square_exp'
+path_to_result = f'{root_path}/{path_of_exp[0]}'
+
+####
 
 lenght = count_files(path =f'{path_to_result}', like ='optimized_structure_')
 archs = count_files(path =f'{path_to_result}/History_0', like ='performance_')

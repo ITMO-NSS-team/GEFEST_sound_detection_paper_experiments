@@ -10,22 +10,25 @@ def upload_file(path: str):
         f.close()
     return file
 
-path_to_result  = ['Results/iter0/bottom_square_exp']
+#Choose 'path_to_result' what case of results you want to vizualize
+
+#path_to_result  = ['Results/iter0/bottom_square_exp']
+#path_to_result  = ['Baseline_results/iter0/bottom_square_exp']
 
 #Uncomment path_to_result below to create DataFrame for paper's experiments results
 
-# path_to_result = ['Paper_results/002_3107_roulette/iter_0/bottom_square',
-#        'Paper_results/001_3107_roulette/iter_0/bottom_square',
-#        'Paper_results/003_3107_roulette/iter_0/bottom_square',
-#        'Paper_results/001_3107_tournament/iter_0/bottom_square',
-#        'Paper_results/002_3107_tournament/iter_0/bottom_square',
-#        'Paper_results/003_3107_tournament/iter_0/bottom_square',
-#        'Paper_results/002_3107_roulette/iter_1/bottom_square',
-#        'Paper_results/001_3107_roulette/iter_1/bottom_square',
-#        'Paper_results/003_3107_roulette/iter_1/bottom_square',
-#        'Paper_results/001_3107_tournament/iter_1/bottom_square',
-#        'Paper_results/002_3107_tournament/iter_1/bottom_square',
-#        'Paper_results/1_0908_roulette/iter0/bottom_square_exp', ]
+path_to_result = ['Paper_results/002_3107_roulette/iter_0/bottom_square',
+       'Paper_results/001_3107_roulette/iter_0/bottom_square',
+       'Paper_results/003_3107_roulette/iter_0/bottom_square',
+       'Paper_results/001_3107_tournament/iter_0/bottom_square',
+       'Paper_results/002_3107_tournament/iter_0/bottom_square',
+       'Paper_results/003_3107_tournament/iter_0/bottom_square',
+       'Paper_results/002_3107_roulette/iter_1/bottom_square',
+       'Paper_results/001_3107_roulette/iter_1/bottom_square',
+       'Paper_results/003_3107_roulette/iter_1/bottom_square',
+       'Paper_results/001_3107_tournament/iter_1/bottom_square',
+       'Paper_results/002_3107_tournament/iter_1/bottom_square',
+       'Paper_results/1_0908_roulette/iter0/bottom_square_exp' ]
 root_path = Path(__file__).parent.parent
 fits ={}
 dice_dict={}
