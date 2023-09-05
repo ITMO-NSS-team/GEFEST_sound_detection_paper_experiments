@@ -5,4 +5,14 @@
  - *main_experiment.py* file includes the code which executes the main experiment mentioned in the paper. This file create *Results* folder.
  - *baseline_experiment.py* file includes the code which executes the baseline experiment in the paper.  This file create *Baseline_results* folder.
  - *Paper_results*  folder contain all results of paper's experiments.
- - *vizualization* folder contain files *Historys_visualisation.py*(plot a reconstructed shapes and loss of optimization) and *evo_results_df.py* (create a DataFrame with loss and dice). To vizualize results in this files, string *path_to_result* can specify the path from the repository root to the experiments. 
+ - *vizualization* folder contain files *Historys_visualisation.py*(plot a reconstructed shapes and loss of optimization) and *evo_results_df.py* (create a DataFrame with loss and dice). To vizualize results in this files, string *path_to_result* can specify the path from the repository root to the experiments.
+   
+Installation
+------------
+To run cases of this repo, need to install GEFEST it's requirements packages.
+
+It's can be installed with ``pip``::
+
+``$ git clone https://github.com/ITMO-NSS-team/GEFEST_sound_detection_paper_experiments.git``  
+``$ cd GEFEST_sound_detection_paper_experiments``  
+``$ pip install -r requirements.txt``
