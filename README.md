@@ -21,12 +21,17 @@ Other result that not presented in paper
 ------------
 
 ### Loss box-plot
-![Loss_boxplot](https://github.com/ITMO-NSS-team/GEFEST_sound_detection_paper_experiments/assets/113540469/cf34e91f-eed4-4602-a689-ba2025e68a4d)
+![Loss_boxplot](plots/Loss_boxplot.png)
 
 ### Dice box-plot
-![dice_boxplot](https://github.com/ITMO-NSS-team/GEFEST_sound_detection_paper_experiments/assets/113540469/67d0cc57-b1b0-46f2-87ad-ab2c522200d1)
+![dice_boxplot](plots/dice_boxplot.png)
 
 ### Proposed approach experiments plots
-
+![evo_plot_1](plots/evo_for_git_1.png)
+![evo_plot_2](plots/evo_for_git_2.png)
+![evo_plot_3](plots/evo_for_git_3.png)
 
 ### Baseline plots
+![baseline_plot_1](plots/baseline_2.png)
+![baseline_plot_2](plots/baseline_3.png)
+![baseline_plot_3](plots/baseline_4.png)
