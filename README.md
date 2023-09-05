@@ -16,3 +16,17 @@ It's can be installed with ``pip``::
 ``$ git clone https://github.com/ITMO-NSS-team/GEFEST_sound_detection_paper_experiments.git``  
 ``$ cd GEFEST_sound_detection_paper_experiments``  
 ``$ pip install -r requirements.txt``
+
+Other result that not presented in paper
+------------
+
+### Loss box-plot
+![Loss_boxplot](https://github.com/ITMO-NSS-team/GEFEST_sound_detection_paper_experiments/assets/113540469/cf34e91f-eed4-4602-a689-ba2025e68a4d)
+
+### Dice box-plot
+![dice_boxplot](https://github.com/ITMO-NSS-team/GEFEST_sound_detection_paper_experiments/assets/113540469/67d0cc57-b1b0-46f2-87ad-ab2c522200d1)
+
+### Proposed approach experiments plots
+
+
+### Baseline plots
