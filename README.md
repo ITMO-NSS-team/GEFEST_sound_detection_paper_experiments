@@ -17,6 +17,11 @@ It's can be installed with ``pip``::
 ``$ cd GEFEST_sound_detection_paper_experiments``  
 ``$ pip install -r requirements.txt``
 
+Visualisation of optimisation
+------------
+![test10](https://github.com/ITMO-NSS-team/GEFEST_sound_detection_paper_experiments/assets/113540469/03f07d98-93dd-42ae-9cb2-4d1788a35c3c)
+
+
 Other result that not presented in paper
 ------------
 
